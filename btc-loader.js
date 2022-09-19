@@ -41,9 +41,9 @@ function btcExecuteOnHead() {
     })
   }
 
-  head.appendChild(makeScript('../textcmd.js'))
-  head.appendChild(makeScript('../basic-textcmds.js'))
-  head.appendChild(makeStyle( '../basic-textcmds.css'))
+  head.appendChild(makeScript('./textcmd.js'))
+  head.appendChild(makeScript('./basic-textcmds.js'))
+  head.appendChild(makeStyle( './basic-textcmds.css'))
 
   // Wait for txtcmd and basicCmdset to be loaded
   let configurationTimeout = undefined
