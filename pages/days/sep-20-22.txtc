@@ -13,7 +13,7 @@ Which you can normalize over \math(\mathbb{R}):
 \int_{-\infty}^{\infty} k_{a,b}(x) dx = 1
 )
 
-And solve for \math(b) \expandable(I can't remember what \math(b) turned out to b\lowvis(e), but just imagine I put a \displaymath below...)
+And solve for \math(b) \expandable(I can't remember what \math(b) turned out to b\lowvis(e), but just imagine I put a \displaymath below...). Also note: this isn't normalized over \math(\mathbb{R}^n) in the case of a multi-dimensional \math(x) \expandable(eg: \math(x = \left| \vec{x} \right|)); but it doesn't matter, I only did the normalization above to get rid of a parameter
 
 The idea is that if in an ANN \math(N) the outputs \math(e) of the same layer \math(L) from applying \math(N) to multiple io-pairs share some elements, then those elements are probably representative of some modularity in \math(N). So how do you encourage modularity like that? You apply \math(N) to subsets of your training set, look for close values, then encourage those values to get closer if they are close-enough, and you encourage other values to go elsewhere in encoding-space
 
