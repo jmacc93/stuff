@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script type="text/javascript" src="/lib/btc-loader.js"></script>
-  <script type="text/javascript" src="/lib/add-extra-txtcmds.js"></script>
-</head>
-<body>
-  <a style="font-size:small" href="/">Back to root page</a>
-  <br>
-  <pre class="tc-autorender" style="font-family: unset; white-space: pre-wrap">Welcome to my stuff page
+Welcome to my stuff page
 
 I'll just put whatever I want in here
 
@@ -39,7 +30,4 @@ I'm working on something much more powerful \expandable(
 
 I also want to put some of the results from me messing around with stable diffusion here. Later, though. \lowvis(Unless I've already done it 😌)
 
-Here's my \link(/pages/day-posts.html|Posts by day). Not every day, but miscellaneous things are found there</pre>
-  <div class="overscroll-div" style="height:16em"></div>
-</body">
-</html>
+Here's my \link(/pages/day-posts.html|Posts by day). Not every day, but miscellaneous things are found there

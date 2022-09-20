@@ -1,0 +1,24 @@
+
+I made all the first posts on my stuff website on this day :)
+
+Oh! Also, yesterday I tried out a failed attempt to modularize an AE-ANN using this function:
+
+\displaymath(
+k_{a,b}(x) = e^{-a^2 x^2}\left( 1 - e^{-b^2 x^2} \right)
+)
+
+Which you can normalize over \math(\mathbb{R}):
+
+\displaymath(
+\int_{-\infty}^{\infty} k_{a,b}(x) dx = 1
+)
+
+And solve for \math(b) \expandable(I can't remember what \math(b) turned out to b\lowvis(e), but just imagine I put a \displaymath below...)
+
+The idea is that if in an ANN \math(N) the outputs \math(e) of the same layer \math(L) from applying \math(N) to multiple io-pairs share some elements, then those elements are probably representative of some modularity in \math(N). So how do you encourage modularity like that? You apply \math(N) to subsets of your training set, look for close values, then encourage those values to get closer if they are close-enough, and you encourage other values to go elsewhere in encoding-space
+
+So we need a "potential-energy" function to use as a virtual loss. \math(k_{a,b}) Above was one attempt at that. But it failed in the implementation I tried because ??? I'm not sure yet. But I think some more precise statistics are in order
+
+Another idea I had related to encouraging modularity in this manner was: apply an AE \expandable(which outputs a softmaxed or unit vector) to \math(e). The idea being that the AE will cause \math(e) to tend towards bla blah blah. Done writing
+
+

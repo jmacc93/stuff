@@ -74,6 +74,7 @@
 
 .btc-styler.code {
   background: var(--icode-background);
+  margin-bottom: 0;
 }
 
 .btc-styler.strobe {
@@ -299,13 +300,11 @@
   visibility: visible;
 }
 .btc-styler.tooltip > .tooltip-message {
-  width: 0; height: 0;
   visibility: hidden;
-  position: relative;
+  position: absolute;
 }
 .btc-styler.tooltip > .tooltip-message > * {
   position: absolute;
-  display: inline;
   background: white;
   border: 1px solid var(--main-accent);
   padding: 0.2em;
@@ -365,13 +364,11 @@
   visibility: visible;
 }
 .btc-styler.expoverlay > .expoverlay-message {
-  width: 0; height: 0;
   visibility: hidden;
-  position: relative;
+  position: absolute;
 }
 .btc-styler.expoverlay > .expoverlay-message > * {
   position: absolute;
-  display: inline;
   background: white;
   border: 1px solid var(--main-accent);
   padding: 0.2em;
