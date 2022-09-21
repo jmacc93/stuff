@@ -1,0 +1,144 @@
+<html>
+<head>
+  <title>Status area tester</title>
+  
+  <script src="https://githubraw.com/jmacc93/statusarea/main/statusarea.js"></script>
+  <link rel="stylesheet" href="https://githubraw.com/jmacc93/statusarea/main/statusarea.css"></link>
+  
+  <script>
+    function bodyload() {
+      const body = document.body
+      
+      function addStatusMessage(...args) {
+        document.querySelector('#statusarea').dispatchEvent(new CustomEvent('set', {detail: args})) 
+      }
+      function elementThen(tag, fn = undefined) {
+        let ret = document.createElement(tag)
+        fn?.(ret)
+        return ret
+      }
+      function plaintextElement(tag, text) {
+        let ret = document.createElement(tag)
+        if(text === undefined || text === null) // text is null or undefined
+          throw new Error(`plaintextElement text is undefined`)
+        else if(typeof text === 'string')
+          ret.innerText = text
+        else
+          ret.innerText = String(text)
+        return ret
+      }
+      /**
+      randomIntegerOn(0, 10) // 4
+      randomIntegerOn(0, 10) // 6
+      randomIntegerOn(0, 10) // 1
+      randomIntegerOn(0, 10) // 10
+      randomIntegerOn(0, 10) // 0
+      randomIntegerOn(1, 1)  // 1
+      randomIntegerOn(10, 0)
+      Same as randomIntegerOn(0, 10)
+      */
+      function randomIntegerOn(start, end) {
+        if(end < start)
+          return randomIntegerOn(start, end)
+        else if(end === start)
+          return start
+        else
+          return Math.floor(Math.random()*(end+1-start)) + start
+      }
+      /**
+      randomChoice([1,2,3])    // 3
+      randomChoice([1,2,3], 3) // [2, 2, 1]
+      randomChoice([1,2,3], 6) // [3, 1, 2, 3, 1, 1]
+      */
+      function singleRandomChoice(choices) {
+        return choices[randomIntegerOn(0, choices.length - 1)]
+      }
+      function randomChoice(choices, n) {
+        let ret = []
+        for(let i = 0; i < n; i++)
+          ret.push(singleRandomChoice(choices))
+        return ret
+      }
+
+      /**
+      randomAlphanum(4) // 'ht2v'
+      */
+      const alphanumChars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+      function randomAlphanum(n) {
+        return randomChoice(alphanumChars, n).join('')
+      }
+      
+      // regular text
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'add "Sample text" to statusarea'
+        addButton.addEventListener('click', clickevent => {
+          addStatusMessage("Sample text")
+        })
+      }))
+      // error text
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'add "Error text" to statusarea as an error'
+        addButton.addEventListener('click', clickevent => {
+          if(randomIntegerOn(0,1) == 0)
+            addStatusMessage({error: true}, "Error text")
+          else
+            addStatusMessage("Error text", {error: true})
+          
+        })
+      }))
+      // add element
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'add blue "Sample text" element to statusarea'
+        addButton.addEventListener('click', clickevent => {
+          addStatusMessage(elementThen('span', span => {
+            span.innerText = "Sample text"
+            span.style = 'color: blue'
+          }), randomIntegerOn(0, 1) == 0 ? {uncloned: true} : {})
+        })
+      }))
+      // add transient text
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'add "Sample text" transient to statusarea'
+        addButton.addEventListener('click', clickevent => {
+          addStatusMessage("Sample text", {transient: true})
+        })
+      }))
+      // add random transient texts
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'add lots of random texts to statusarea'
+        addButton.addEventListener('click', clickevent => {
+          for(let i = 0; i < 10; i++)
+            addStatusMessage(randomAlphanum(randomIntegerOn(1, 10)), {transient: true})
+        })
+      }))
+      // change timeout delay
+      body.appendChild(elementThen('input', addButton => {
+        addButton.setAttribute('type', 'button')
+        addButton.value = 'change transient timeout to something else'
+        addButton.addEventListener('click', clickevent => {
+          let newTimeoutDelay = randomIntegerOn(1, 3000)
+          addStatusMessage(`new timeout is ${newTimeoutDelay}`, {transient: true})
+          statusarea.setTransientHideDelay(newTimeoutDelay)
+        })
+      }))
+      
+      body.appendChild(statusarea.make())
+      
+      
+      
+      addStatusMessage('Generic message')
+      addStatusMessage('Error message', {error: true})
+      addStatusMessage('Some other message')
+      
+    }
+  </script>
+</head>
+
+<body onload="bodyload()"></body>
+
+</html>

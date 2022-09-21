@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="/stuff/lib/btc-loader.js"></script>
+  <script type="text/javascript" src="/stuff/lib/add-extra-txtcmds.js"></script>
+  <style>
+    body {
+      width: 80vw;
+      margin: auto;
+      color: rgb(62, 62, 62);
+      font-family: sans;
+    }
+  </style>
+</head>
+<body>
+  <a style="font-size:small" href="/stuff/">Back to root page</a>
+  <br>
+  <pre class="tc-autorender" style="font-family: unset; white-space: pre-wrap">\title(September 21, 2022)
+
+I've been reorganizing my \link(/stuff/ideation-project.html|ideation project) and its really pushing the point home to me that focusing on \italic(tools) makes the most sense. Humans are not just a tool-using species but we're a tool-making species
+
+What is a tool? A \tooltip(thing|We don't really care what form it takes) that is \tooltip(usable|Meaning it \underline(has) an interface) and that has some \tooltip(effect|Changes the state of the world; or, it changes the states of our internal models of the world). It's really \underline(the interface) which is the important part, I think
+
+An interface is most like a function type, like: \icode(F: (T1, T2, ..., Tn) -> R1, R2, ..., Rn)
+Or, like \icode(I.F(T1, T2, ..., Tn) -> R1, R2, ..., Rn), where \icode(I) is a namespace
+But that is really more like a toolbox, so to speak
+To put it in less esoteric terms: An interface is a thing \icode(F) which you use \lowvis(eg: by combining it with other things \icode(T1, T2, ..., Tn)) to produce an outcome \lowvis(that's the \icode(R1, R2, ..., Rn) part)
+To put it in \bold(more) esoteric \tooltip(terms|lol): An interface is a function that takes multiple types and returns multiple types. So it's like a higher level of abstraction than a regular function
+I'm also just surfing thoughtspace here. I'm sure other's conceptions don't align with mine on this
+
+\separator()
+
+I originally had designed my ideation project website using modular components I called \tooltip(gadgets|A play on widgets. I've been using the working definition of a \underline(Gadget) as: \quote(A widget that the end users add to the page and combine together themselves), which I don't really like, but whatever), but now I'm pivoting towards a fractionally different conceptualization of probably the exact same idea that I call \underline(pagelets). They're essentially the same, \bold(but): a pagelet \quote(... can be treated as its own page; and so each can be tested separately)
+
+\separator()
+
+The project is really about a collaborative \italic(\tooltip(Idea|You have an idea, connect two pieces of information, solve a problem, etc) -> \tooltip(Record|You immediately record all your ideas when you have them) -> \tooltip(Condense|You take all the ideas / information / whatever you've produced so far in this cycle and condense them into the best subset of those conceptions, or a synthesis of them)) \tooltip(cycle|IRC?). So that multiple people can see the states of others' Idea->Record->Condense cycles
+
+Note about this cycle: each part of the cycle potentially has its own tools for improving that part. The idea-generation part, for instance, potentially has tools for increasing the rate of idea generation; the recording part for improving how fast ideas can be dumped from brain to paper, and for the format for those recordings; the condensation part for comparing recordings, combining the, etc
+
+\separator()
+
+Made \link(https://github.com/jmacc93/statusarea) \expandable(Check out \link(/stuff/pages/status-area-tester.html|the tester page)) which I repurposed from old code, and a repository for txtcmd: \link(https://github.com/jmacc93/txtcmd)</pre>
+  <div class="overscroll-div" style="height:16em"></div>
+</body">
+</html>
