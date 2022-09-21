@@ -2,7 +2,7 @@ Welcome to my stuff page
 
 I'll just put whatever I want in here
 
-Like a demonstration of \link(./textcmd-demo.html|textcmds) \expandable(
+Like a demonstration of \link(/stuff/pages/textcmd-demo.html|textcmds) \expandable(
   Textcmds are a programming language \expandable(maybe?) that looks like:
   \code(text|
     \expandable(\bold(this)) \rainbow(<- that's an expandable)
@@ -10,10 +10,10 @@ Like a demonstration of \link(./textcmd-demo.html|textcmds) \expandable(
   Which renders as:
   \expandable(\bold(this)) \rainbow(<- that's an expandable)
 
-  Learn more about textcmds \link(./pages/textcmd-demo.html|at this page)
+  Learn more about textcmds \link(/stuff/pages/textcmd-demo.html|at this page)
 
-  To see more textcommands, go to the \link(./pages/basic-txtcmd-gallery.html|basic textcommand gallery)
-  Or, see \link(./pages/basic-textcmds-tester.html|the txtcmd tester page)
+  To see more textcommands, go to the \link(/stuff/pages/basic-txtcmd-gallery.html|basic textcommand gallery)
+  Or, see \link(/stuff/pages/basic-textcmds-tester.html|the txtcmd tester page)
 ) \lowvis(<- click this)
 
 I'm working on something much more powerful \expandable(
@@ -25,9 +25,9 @@ I'm working on something much more powerful \expandable(
   
   The final \underline(idea) that was the key to how this project should work was simply combining real-time append-only logs \expandable(ie, chat rooms; but that just doesn't sound as good) with wikis; so ideas naturally move from a very transient place to a more permanent place
   
-  Check out \link(/pages/ideation-project.html|this page for more information about this project)
+  Check out \link(/stuff/pages/ideation-project.html|this page for more information about this project)
 ). That project was actually what spawned textcmds: because I wanted more power than markdown affords
 
 I also want to put some of the results from me messing around with stable diffusion here. Later, though. \lowvis(Unless I've already done it 😌)
 
-Here's my \link(/pages/day-posts.html|Posts by day). Not every day, but miscellaneous things are found there
+Here's my \link(/stuff/pages/day-posts.html|Posts by day). Not every day, but miscellaneous things are found there
