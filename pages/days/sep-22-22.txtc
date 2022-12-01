@@ -1,0 +1,9 @@
+\title(September 22, 2022)
+
+This morning I thought of an interesting way to potentially train RNNs: train an AE \math(d(e(x^1)) = h^1) on the input elements of your training set; then train a two-input AEs: \math(h^2 = s^2(x^2, h^1)), \math(x^2 = l_x^2(h_2)), \math(h^1 = l_h^2(h^2)); then train n more two-input AEs: \math(h^i = s^i(x, h^{i-1})), \math(x^i = l_x^i(h_i)), \math(h^{i-1} = l_h^i(h^i)) \expandable(where the \math(x^i) are the \math(i)th element sequentially after \math(x^0)). Which should make any \math(h^i) contain all the information from the previous \math(h^j) \lowvis(\math(j<i)). Then train a regular folded RNN on \math((x^1, x^2, \dots. x^n) \map (h^1, h^2, \dots, h^n)). That last part probably still has gradient collapse issues like regular training in RNNs
+
+\separator()
+
+I tried that ^ out and it didn't work for that particular trying out (next token prediction)
+
+Oh well

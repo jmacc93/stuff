@@ -1,35 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script type="text/javascript" src="/stuff/lib/btc-loader.js"></script>
-  <script type="text/javascript" src="/stuff/lib/add-extra-txtcmds.js"></script>
-  <style>
-    body {
-      width: 80vw;
-      margin: auto;
-      color: rgb(62, 62, 62);
-      font-family: sans;
-    }
-  </style>
-</head>
-<body>
-  <a style="font-size:small" href="/stuff/">Back to root page</a>
-  <br>
-  <pre class="tc-autorender" style="font-family: unset; white-space: pre-wrap">Welcome to my stuff page
+<div class="pagelet">
+  <link href="/stuff/lib/general.css" rel="stylesheet"></link>
+  <script type="module" src="/stuff/lib/callib0.mjs"></script>
+  
+  <call-resource srcfn="/stuff/lib/lib.mjs: mixinHtml" mixin-src="/stuff/misc/pagelet-headers.html"></call-resource>
+  <call-resource srcfn="/stuff/lib/lib.mjs: transformToEscm" class="loading" style="white-space: pre">
+Welcome to my stuff page
 
 I'll just put whatever I want in here
 
-Like a demonstration of \link(/stuff/pages/textcmd-demo.html|textcmds) \expandable(
-  Textcmds are a \strikeout(programming language \expandable(maybe?)) markup language that looks like:
+Like a demonstration of \link(/stuff/pages/textcmd-demo.html|escape markup) \expandable(
+  Escm is a markup language that looks like:
   \code(text|
     \expandable(\bold(this)) \rainbow(<- that's an expandable)
   )
   Which renders as:
   \expandable(\bold(this)) \rainbow(<- that's an expandable)
 
-  Learn more about textcmds \link(/stuff/pages/textcmd-demo.html|at this page)
+  Learn more about escm \link(/stuff/pages/textcmd-demo.html|at this page)
 
-  To see more textcommands, go to the \link(/stuff/pages/basic-txtcmd-gallery.html|basic textcommand gallery)
+  To see more escape markup, go to the \link(/stuff/pages/basic-txtcmd-gallery.html|basic textcommand gallery)
   Or, see \link(/stuff/pages/basic-textcmds-tester.html|the txtcmd tester page)
 ) \lowvis(<- click this)
 
@@ -51,7 +40,6 @@ Here's my \link(/stuff/pages/day-posts.html|Posts by day). Not every day, but mi
 
 \separator()
 
-Check out \link(/stuff/pages/status-area-tester.html|This tiny status area tester page)</pre>
-  <div class="overscroll-div" style="height:16em"></div>
-</body">
-</html>
+Check out \link(/stuff/pages/status-area-tester.html|This tiny status area tester page)
+  </call-resource>
+</div>

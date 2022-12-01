@@ -1,0 +1,46 @@
+\title(September 23, 2022)
+
+I'v been messing around with programming syntax ideas for a long time. One of the things I've always wanted to see more in various programming languages is different ways to compose expressions, especially in a pseudo-concatenative style.
+
+eg:
+\code(js|
+f @> g @> h
+// eq to:
+f(g(h(##)))
+)
+Here I'm using Mathematica's syntax for argument slots \icode(##) means all arguments
+
+Another, more minimal eg:
+\code(js|
+x @> f
+// eq to:
+f(x)
+)
+
+Another:
+\code(js|
+x, y @> g(#2), h(#1) @> f(#2, #1)
+// eq to:
+f(h(x), g(y))
+)
+
+In Mathematica the expression \icode(f @ x) is equivalent to \icode(f(x)), here I'm making it a prefixing notation, and adding another symbol \lowvis(\icode(@>)) to differentiate the syntax transformation from other syntax transformations
+
+Another possible syntax is making juxtaposition equivalent to composition and then:
+\code(js|
+x, y f(<@)
+// eq to:
+x, f(y)
+)
+and
+\code(js|
+x, y f(<@@)
+// eq to:
+f(x, y)
+)
+Which is less attractive, I think
+
+\separator()
+
+It seems that in any particular paragraph of words, it's very much like a proof or list of things that all must get synthesized at the end. A paragraph in some sense is like a thesis composed of smaller elements (sentences) which all must be combined at the end. If I have a paragraph like: \colored(green|I went to the store. There was an opossum in my yard yesterday. It is raining) that is awkward and doesn't compose to anything at the end, but a paragraph like \colored(green|I went to the store. There was an opossum in my yard yesterday. It is raining. I took an umbrella. I was getting opossum deterrents), it doesn't sound attractive but it composes to a complete idea. Anyway, \colored(pink|just what I was thinking)
+
