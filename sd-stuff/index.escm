@@ -1,0 +1,40 @@
+\title(Stable diffusion images)
+
+\collapsible(
+\centered(Cenobite elmo)
+\img(./cenobite-elmo.png)
+
+\centered(Cthuahua)
+\img(./chthulua-dog.png)
+
+\centered(Many equivalents of this image for some reason)
+\img(./hundreds-of-images-like-this-one.png)
+
+\centered(Flowers in my backyard)
+\small(Its blurry because my phone's camera sucks)
+\img(./flowers-in-my-backyard.png)
+
+\centered(Joan of arc as a jedi)
+\img(./joan-of-arc-as-jedi.png)
+
+\centered(Future mechanic)
+\img(./mechnic-working.png)
+
+\centered(Mr Rogers)
+\img(./mr-rogers.png)
+
+\centered(Jumping in space)
+\img(./space-jump.jpg)
+
+\centered(Surfing between cfg and denoising)
+\img(./surfing-between-cfg-and-denoising.png)
+
+\centered(Tiny rocket on table)
+\img(./tiny-rocket.png)
+
+\centered(Two headed DND snake)
+\img(./two-headed-dnd-snake.png)
+
+\centered(Venomorph)
+\img(./venomorph-upscaled.png)
+)
