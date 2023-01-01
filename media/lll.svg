@@ -1,0 +1,24 @@
+<svg viewBox="0 0 154 154" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="a">
+            <stop style="stop-color:#bbb;stop-opacity:0" offset="0"/>
+            <stop style="stop-color:#fff;stop-opacity:1" offset=".73"/>
+        </linearGradient>
+        <linearGradient id="b">
+            <stop style="stop-color:#fff;stop-opacity:1" offset=".275"/>
+            <stop style="stop-color:#bbb;stop-opacity:0" offset="1"/>
+        </linearGradient>
+        <linearGradient xlink:href="#a" id="d" x1="958.442" y1="226.499" x2="989.325" y2="226.499" gradientUnits="userSpaceOnUse"/>
+        <linearGradient xlink:href="#b" id="c" gradientUnits="userSpaceOnUse" x1="985.43" y1="226.499" x2="1016.314" y2="226.499"/>
+    </defs>
+    <g transform="translate(-910.613 -163.104)">
+        <path style="fill:#000;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:6.56266;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" transform="rotate(45)" d="M816.819-579.593h102.047v102.047H816.819z"/>
+        <path style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fff;stroke-width:5.888;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" transform="rotate(45)" d="M822.064-574.347h91.556v91.556h-91.556z"/>
+        <path style="opacity:1;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:url(#c);stroke-width:3.988;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="m987.359 175.155 27.027 102.688"/>
+        <path style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:url(#d);stroke-width:3.988;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="M987.396 175.155 960.37 277.843"/>
+        <path style="color:#000;fill:#fff;fill-opacity:1;stroke:#000;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="M985.028 223.737c-6.01.282-11.502 3.115-16.522 6.214-4.72 2.874-9.478 5.976-14.63 7.894-4.07 1.52-8.377 2.214-12.715 1.983-.95.01-1.989-.25-2.961-.212-1.346.348-1.415 2.761.1 2.893 6.09.71 12.361-.11 18.012-2.517 7.182-2.923 13.276-7.887 20.286-11.144 4.11-1.92 8.793-2.77 13.28-1.888 6.684 1.199 12.64 4.805 18.484 8.113 6.08 3.409 12.38 6.932 19.416 7.778 3.181.384 6.422.156 9.537-.584.152-1.008-.091-2.483-1.32-2.627-1.385.163-2.772.492-4.182.494-2.375.082-4.545-.178-6.87-.734-7.132-1.816-13.338-5.938-19.723-9.43-5.684-3.134-11.814-6.008-18.415-6.233-.592-.034-1.185-.008-1.777 0z"/>
+        <path style="color:#000;fill:#fff;fill-opacity:1;stroke:#000;stroke-width:2.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="M931.6 238.618c-.32.642-1.04 1.063-1.152 1.797.084.797 1.063.987 1.554 1.5 11.89 8.57 25.389 15.253 39.883 17.917 14.14 2.686 28.925 1.257 42.486-3.443 10.743-3.674 20.78-9.189 30.1-15.632-.22-.97-.913-2.235-2.094-1.998-1.308.54-2.36 1.566-3.595 2.257-10.165 6.614-21.28 11.97-33.045 14.88-13.072 3.283-27.001 3.186-39.995-.456-10.246-2.858-19.945-7.68-28.728-13.628-1.736-1.156-3.419-2.389-5.102-3.62l-.312.426z"/>
+        <circle style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fff;stroke-width:3.088;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" cx="987.412" cy="242.218" r="4.559"/>
+        <text xml:space="preserve" style="font-size:5.6px;font-family:sans;stroke:none;stroke-width:3;fill:#000;fill-opacity:0" x="987.399" y="215.567"><tspan style="text-align:center;text-anchor:middle;fill:#000;fill-opacity:0;stroke-width:3.088" x="987.399" y="215.567">WATCH</tspan><tspan style="text-align:center;text-anchor:middle;fill:#000;fill-opacity:0;stroke-width:3.088" x="987.399" y="229.567">THE</tspan><tspan style="text-align:center;text-anchor:middle;fill:#000;fill-opacity:0;stroke-width:3.088" x="987.399" y="243.567">VOID</tspan></text>
+    </g>
+</svg>

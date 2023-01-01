@@ -68,7 +68,7 @@ ul.bes-styler.list {
 }
 
 .bes-styler.centered {
-  /* display: block; */
+  display: block;
   width: fit-content;
   margin: 0 auto;
 }
@@ -327,7 +327,6 @@ ul.bes-styler.list {
 }
 
 .bes-styler.displaymath {
-  /* display: block; */
   font-size: 1.2em;
 }
 .bes-styler.displaymath::after {
@@ -344,7 +343,6 @@ ul.bes-styler.list {
 }
 
 .bes-styler.img {
-  /* display: block; */
   max-width: 32em;
   max-height: 32em;
   width: auto;
@@ -358,19 +356,16 @@ ul.bes-styler.list {
 
 .bes-styler.expoverlay {
   display: inline-block;
-  /* vertical-align: bottom; */
 }
 .bes-styler.expoverlay > .expoverlay-button {
   cursor: pointer;
 }
 .bes-styler.expoverlay:not(.expanded) > .expoverlay-button::after {
-  /* content: '\1F675 '; */
   content: '\1F674';
   border: 1px solid var(--gray-color);
   color: var(--gray-color);
 }
 .bes-styler.expoverlay.expanded > .expoverlay-button::after {
-  /* content: '\1F675'; */
   content: '\1F674';
   border: 1px solid var(--gray-color);
   box-shadow: 0px 0px 4px var(--gray-color);
@@ -517,4 +512,9 @@ ul.bes-styler.list {
 }
 .bes-styler.img.spoiler {
   background: black; 
+}
+
+.bes-styler.img.small {
+  max-width: 8em;
+  max-height: 8em;
 }
