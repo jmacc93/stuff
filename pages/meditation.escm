@@ -6,9 +6,20 @@ On this page are some of the types of \italic(meditation) I've discovered, gener
 
 \separator()
 
+\condensation(
+  Condensation:
+  \indent(
+    I don't this this model is very likely to be true or entirely true
+    
+    Your cortex can be decomposed into two networks: the one devoted to attention, and the rest; and they influence one another via excitatory and inhibitory interconnections
+    
+    Activating a part of your mind will tend to cause that part to become active later
+  )
+)
+
 I first want to say, my current high-level model of the cortex has: a bunch of semi-independant networks as layer 1, so to speak, which communicate freely and primarily compose the functional component of the cortex; and a bunch of semi-independant networks as layer 2, which communicate freely, and communicate with layer 1 conditionally, and compose the attentional component of the cortex. In other words, my feel is that: theres brain activity throughout your cortex in one network, then spread around that network is your attentional network which responds (\italic(attends)) to the activity in the first network and modulates it. So your attentional network attends to other parts of your brain and guides them
 
-I'm almost certainly wrong and place at most on the order of 10% probability on this model. And whenever I talk about brain networks below, I'm implicitly using this model (but very tentatively because of this low placed probability)
+I'm almost certainly wrong and place at most on the order of 30% probability on this model. And whenever I talk about brain networks below, I'm implicitly using this model (but very tentatively because of this low placed probability)
 
 Another model I use that I don't place a high probability of being true on: when some part of your cortex is active, it tends to stay active; and even when it isn't immediately active, its recent activity level tends to make it more activatable. ie: Recent activity tends to make new activity more likely. I've been calling this cognitive momentum. What this looks like, mentally, is like if you've been doing something for awhile, you tend to relate new things to that old thing you were doing, and see new things in terms of that old thing. The extreme version of this is \link(https://en.wikipedia.org/wiki/Tetris_effect|the tetris effect), where you may potentially start literally hallucinating
 
@@ -19,6 +30,10 @@ The importance of this (contingent upon its truthiness) cannot be overstated: if
 \separator()
 
 \header1(My view on what meditation is)
+
+\condensation(
+  Meditation is exercise for your mind, and can induce various cognitive effects
+)
 
 What I'm generally referring to as meditation on this page is just some entirely-mental exercise that produces some immediate or eventual effect. Meditation (mental exercises) are useful because they produce these effects
 
@@ -34,7 +49,7 @@ My sense is that \italic(any) mental process can be trained using meditation. So
 
 \italic(What you) attend to
 
-\header2(Ye olde standard basic bitch focus meditation)
+\header2(Ye olde standard basic focus meditation)
 
 You focus on something for a long time, not much too it. However, you have the choice what to focus on
 
@@ -105,7 +120,13 @@ What I think happens: you're exciting parts of your motor cortex, which will mak
 
 Another note on this: there is therapeutic value in being goofy and otherwise doing things that you think are silly or outside your character. Not only does doing things you wouldn't ordinarily do usually make you more comfortable doing those things specifically, but practicing doing out of the ordinary things makes it easier for you to do new things in general \expandable(Of course, this is contingent upon a few assumptions: that doing X makes you more comfortable doing X, that doing X category of thing makes doing X category things easier, etc). Remember, too: that when you're in private there are no social consequences for doing something goofy / stupid / etc. So you really only stand to improve by doing out of the ordinary things like wiggling and dancing sillily
 
+Along the lines of dancing like nobodies watching: a true test of someones confidence and is whether or not they can dance in a goofy and unaesthetic way (without the pretext that they will be doing that) around many other people. Usually people around have the pretext \expandable(ie: Everyone knows that's what you'll be doing, and are expecting it) that you'll act funny, or you are essentially performing for someone (eg: you're being filmed to do it), but it is massively harder, and requires massively more confidence in yourself, if nobody except you knows you'll be acting funny. I figure it has to do with
+
 \header2(Emotional control meditation)
+
+\condensation(
+  Inducing particular emotions
+)
 
 In this form of meditation you try to produce a particular emotional state. And its apparently best paired with alternation techniques (see above), ie: make one emotion then switch to another emotion. In my experience deliberately producing an emotion is really difficult to \italic(just do), but instead there seem to be some methods you can use to coax your brain into them
 
@@ -129,13 +150,19 @@ The idea is to conjure multiple emotions at once, and combine them into a single
 
 \header2(Repatterning)
 
+Repatterning seems to be incredibly powerful. The gist is that you 
+
 \header3(Mental object synthesis)
 
-Combining 
+Combining multiple mental constructs / objects into a single one. This usually means holding both in your mind at the same time
 
 \header2(Torture resistance meditation)
 
-The simplest way to do this meditation is just to hold your breath until you can't handle the temptation to breathe anymore. 
+The simplest way to do this meditation is just to hold your breath until you can't handle the temptation to breathe anymore. Along these lines: 
+
+. If the cognitive momentum model is true, then this should cause you to be able to resist the temptation to breathe (or generally do your target thing-not-to-do) in this same situation in the future, and, it should generalize to other situations. Generally, it should essentially allow you to better resist any sort of automatic temptation in the future
+
+
 
 
 

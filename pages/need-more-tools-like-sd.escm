@@ -1,0 +1,41 @@
+\title(More SD-like tools)
+
+We need more tools like Stable Diffusion!
+
+Stable diffusion is great, but when you hit the edges of its capabilities you really know it. Its very obvious when you're trying to make it do something it can't
+
+Its really good at:
+* Generating images (via txt2img) to use as templates, to break apart to photobash with, to use as textures, etc
+* Creating variants of typical images (via img2img) like faces, clothes, landscapes, indoor scenes, etc
+* Correcting small problems like not-straight lines, weird colors, etc
+
+Its not so good at:
+* Making highly specific images, especially not images with highly specified relationships between its subjects (eg: "dog with fur made of fire standing on top of a beach ball, on the beach \expandable(
+\img(/stuff/images/00552-3138108408-dog with fur made of fire standing on top of a beach ball, on the beach.png)
+Uhh, sorta, but not really...
+)"
+* Generating small details (this is probably because the encoder-decoder identify function is lossy)
+
+\separator()
+
+I would propose machine learning -based tools for:
+* Selecting and masking particular objects from images (possibly: compose many images each with alpha backgrounds together, train algorithm to produce just one object's segment of the image it occupies \expandable(It may also work taking arbitrary numbers of non-alpha-backgrounded images I, arbitrarily prescribing each pixel in the training set input a value from one of the images in I, then maximizing the number of correctly given matching output pixels and minimize the wrongly matching pixels))
+* Correcting warping problems (ie: an ML algorithm trained to unwarp randomly warped images
+* Masking parts of an image that don't conform to a prompt, that have errors in them (warping, high noise, etc), etc
+* Just correcting the border / horizon between distinct objects
+* Just correcting the texture of surfaces (ie: it doesn't change the geometry, just the surface)
+
+Just like we have depth-informed variants of SD, it may be possible to build variants of the SD encoder that have separate channels for different (human-comprehensible) qualities like:
+* Surface qualities: texture, roughness, reflectivity, translucency, angle, color
+* Geometry (this is also related to multi-scale qualities (see below))
+* Type of object, irrespective of other qualities (eg: its encoder produce the equivalent of a label like 'dog', 'shirt', etc; instead of also encoding textures, lighting, colors, etc)
+* Style of the image
+
+Having a quality-separated encoder like this means a user could actually paint different qualities on a canvas (even including blending qualities by interpolating the encoded quality vectors) with different channels for each quality, and then decode the composed qualities tensor into an image
+
+In order to get the encoded values for the various channels, you'd probably have to sample from another image with areas that have the qualities you want (eg: a surface in an image has the right angles, material, color), run an encoder (or encoders) on that part of the image, get the various qualities from the encoding(s), then paint the encoded tensor values onto your canvas
+
+\separator()
+
+Also, I think its worth noting that really lossy \expandable(Lossy itc means that more information is lost) encoders are probably good for large-scale composition \expandable(I imagine this is true because when more information is lost, each element in the encoded tensor stands for more stuff in the input image, and when using a convolutional network to create the encoded tensor, you end up with each encoded tensor element standing for a continuous square region of the input image (mostly; this isn't entirely true in practice, but its a good way to look at it)), medium-lossy encoders for medium-scale composition, then small-loss and non-loss (identity function) encoders for small details. An encoder that uses multiple scales (ie: continuous regions of various sized get compressed to different encoded tensors, so the large scale composition gets compressed to one tensor, and small details get compressed to another vector) is what I call a multi-scale encoder
+

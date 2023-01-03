@@ -36,6 +36,14 @@ ul.bes-styler.list {
   display: inline-block;
 }
 
+.bes-styler.condensation {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 4px;
+  border: 4px double lightblue;
+}
+
 .bes-styler.bold {
   font-weight: bold;
 }
@@ -50,7 +58,7 @@ ul.bes-styler.list {
 }
 
 .bes-styler.indent {
-  /* display: block; */
+  display: block;
   margin-left: 1em
 }
 
@@ -71,6 +79,7 @@ ul.bes-styler.list {
   display: block;
   width: fit-content;
   margin: 0 auto;
+  max-width: 70%
 }
 
 .bes-styler.pre {
