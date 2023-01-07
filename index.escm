@@ -1,0 +1,32 @@
+\title(Joes page)Hi, I'm Joe. Welcome to my stuff page
+
+I'll just put whatever I want in here
+
+
+\centered(\small(\img(/stuff/media/4node.svg)))
+
+Like my other website: \link(https://reconfuse.org|Reconfuse) \expandable(Which is a project I've been working on since I got back from the AT. My intended goal is to have a site that provides a good platform for collaborative ideation. I'm not sure that it is yet, or if it isn't yet, but I'll keep working on it at least for a few more months to try to get it as close to good as I can get it)
+
+In some number of months / years I will move onto my next project: \icode(SetTL), which I will write about at some point, and probably ideate about it somewhere \expandable(hopefully reconfuse)
+
+I thru-hiked the AT \expandable(Appalachian Trail: A ~2,200 mile trail going along the Appalachian moutains) in the spring of 2022. Here's my \link(/stuff/misc/frontend.html?file=/stuff/pages/AT-product-review/page.escm|AT product review)
+
+I put some results from me messing around with stable diffusion \link(/stuff/misc/frontend.html?file=/stuff/sd-stuff/|here)
+
+I also recently wrote about \link(/stuff/misc/frontend.html?file=/stuff/pages/caffeine.escm|caffeine)
+
+And also \link(/stuff/misc/frontend.html?file=/stuff/pages/music.escm|music), \link(/stuff/misc/frontend.html?file=/stuff/pages/meditation.escm|meditation)
+
+And \expandable(12/31/2022) I wrote about my \link(/stuff/misc/frontend.html?file=/stuff/pages/favorite-quantum-mechanics-interpretation.escm|favorite quantum mechanics interpretation)
+
+And \expandable(01/02/2023) About \link(/stuff/misc/frontend.html?file=/stuff/pages/need-more-tools-like-sd.escm|how we need more image manipulation \italic(tools) like stable diffusion)
+
+Heres a \link(/stuff/misc/frontend.html?file=/stuff/pages/|assorted list of pages I've written)
+
+\separator()
+
+\centered(Note: my stuff site (this site) is \italic(explicitly) non-monetized. There are no ads here! I'm not seeking any money. I say this in good faith \expandable(Though, how can you be sure of that? That's a very difficult question to answer. Probably something something holistic semantic correlation of our brains over time something something))
+
+\separator()
+
+Check out \link(/stuff/pages/status-area-tester.html|This tiny status area tester page)

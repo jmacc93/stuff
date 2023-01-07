@@ -9,7 +9,7 @@
   --secondary-accent: rgb(79, 107, 197);
   --gray-color: rgba(20%, 20%, 20%, 50%);
   --highlight-color: rgba(255, 255, 0, 50%);
-  --icode-background: rgba(0, 0, 0, 5%);
+  --icode-background: rgba(161, 175, 255, 0.18);
   --radiation-color: green;
   --hypothesis-bg-color: rgb(241, 249, 255);
   --error-bg-color: lightpink;
@@ -19,7 +19,7 @@
 }
 
 
-.btc-error {
+.bes-error {
   color: red;
   border: 1px solid red;
 }
@@ -30,54 +30,74 @@
 
 /* Individual */
 
-.btc-styler.bold {
+ul.bes-styler.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.bes-styler.condensation {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 4px;
+  border: 4px double lightblue;
+}
+
+.bes-styler.bold {
   font-weight: bold;
 }
 
-.btc-styler.italic {
+.bes-styler.italic {
   font-style: italic;
 }
 
 
-.btc-styler.highlight {
+.bes-styler.highlight {
   background: var(--highlight-color)
 }
 
-.btc-styler.tiny {
+.bes-styler.indent {
+  display: block;
+  margin-left: 1em
+}
+
+.bes-styler.tiny {
   font-size: smaller;
 }
-.btc-styler.small {
+.bes-styler.small {
   font-size: small;
 }
-.btc-styler.big {
+.bes-styler.big {
   font-size: large;
 }
-.btc-styler.huge {
+.bes-styler.huge {
   font-size: larger;
 }
 
-.btc-styler.centered {
+.bes-styler.centered {
   display: block;
   width: fit-content;
   margin: 0 auto;
+  max-width: 70%
 }
 
-.btc-styler.pre {
+.bes-styler.pre {
   white-space: pre-wrap;
 }
 
-.btc-styler.icode {
+.bes-styler.icode {
   white-space: pre-wrap;
   font-family: monospace;
   background: var(--icode-background);
 }
 
-.btc-styler.code {
+.bes-styler.code {
   background: var(--icode-background);
   margin-bottom: 0;
 }
 
-.btc-styler.strobe {
+.bes-styler.strobe {
   animation: strobecolor 0.75s infinite;
 }
 @keyframes strobecolor {
@@ -86,40 +106,40 @@
   100% {color:black;}
 }
 
-.btc-styler.spoiler {
+.bes-styler.spoiler {
   background: black;
   transition: background ease 0.5s;
 }
-.btc-styler.spoiler:hover {
+.bes-styler.spoiler:hover {
   background: unset;
   transition: background ease 0.5s;
 }
 
-.btc-styler.spoiler:not(:hover) > * {
+.bes-styler.spoiler:not(:hover) > * {
   visibility: hidden !important
 }
-.btc-styler.spoiler:hover > * {
+.bes-styler.spoiler:hover > * {
   visibility: unset
 }
 
-.btc-styler.lowvis {
+.bes-styler.lowvis {
   opacity: 50%
 }
 
-.btc-styler.strikeout {
+.bes-styler.strikeout {
   text-decoration: line-through solid var(--gray-color) 3px;
 }
-.btc-styler.strikeout:hover {
+.bes-styler.strikeout:hover {
   text-decoration: unset;
 }
 
-.btc-styler.underline {
+.bes-styler.underline {
   text-decoration: underline solid var(--gray-color) 2px;
   text-underline-offset: 20%;
   /* border-bottom: solid 3px var(--gray-color); */
 }
 
-.btc-styler.rainbow {
+.bes-styler.rainbow {
   animation: rainbow-color 1s linear infinite
 }
 @keyframes rainbow-color {
@@ -153,7 +173,7 @@
   100%  {border-color: red}
 }
 
-.btc-styler.pulse {
+.bes-styler.pulse {
   animation: pulse-size 1s infinite;
   display: inline-block;
   width: max-content;
@@ -168,65 +188,66 @@
   100% {scale: 1.0 }
 }
 
-.btc-styler.mirror {
+.bes-styler.mirror {
   transform: scaleY(-1);
   display: inline-block;
   width: max-content;
   max-width: 99%
 }
 
-.btc-styler.reverse {
+.bes-styler.reverse {
   transform: scaleX(-1);
   display: inline-block;
   width: max-content;
   max-width: 99%;
 }
 
-.btc-styler.blurry {
+.bes-styler.blurry {
   filter: blur(0.1em);
   overflow-x: hidden;
 }
 
-.btc-styler.bubble {
+.bes-styler.bubble {
   border: 2px solid var(--main-accent);
   border-radius: 0.8em;
 }
 
-.btc-styler.powerful {
+.bes-styler.powerful {
   font-family: var(--powerful-font);
   font-style: italic;
   background: cornsilk;
   text-shadow: 2px 2px 0px var(--gray-color);
 }
 
-.btc-styler.radioactive {
+.bes-styler.radioactive {
   text-shadow: 0px 0px 2px var(--radiation-color);
 }
 
-.btc-styler.error {
+.bes-styler.error {
   text-decoration: red wavy underline;
 }
 
-.btc-styler.header1, .btc-styler.header2, .btc-styler.header3, .btc-styler.header4 {
+/* .bes-styler.header1, .bes-styler.header2, .bes-styler.header3, .bes-styler.header4 {
   display: block
+} */
+.bes-styler.header1 {
+  font-size: 2em;
+  text-decoration: underline;
 }
-.btc-styler.header1 {
-  font-size: 2em
+.bes-styler.header2 {
+  font-size: 1.4em
 }
-.btc-styler.header2 {
-  font-size: 1.75em
+.bes-styler.header3 {
+  font-size: 1.2em
 }
-.btc-styler.header3 {
-  font-size: 1.5em
-}
-.btc-styler.header4 {
-  font-size: 1.25em
+.bes-styler.header4 {
+  font-size: 1.1em
 }
 
-.btc-styler.quote {
+.bes-styler.quote {
   color: lightcoral
 }
-.btc-styler.quote::before {
+.bes-styler.quote::before {
   content: var(--quote-prefix);
   font-weight: bold;
   opacity: 50%;
@@ -234,12 +255,12 @@
   vertical-align: super;
 }
 
-.btc-styler.blockquote {
+.bes-styler.blockquote {
   color: lightcoral;
-  display: block;
+  /* display: block; */
   margin-left: 1em
 }
-.btc-styler.blockquote::before {
+.bes-styler.blockquote::before {
   content: var(--quote-prefix);
   font-weight: bold;
   opacity: 50%;
@@ -249,8 +270,8 @@
   left: 1em
 }
 
-.btc-styler.hypothesis {
-  display: block;
+.bes-styler.hypothesis {
+  /* display: block; */
   margin-left: 1em;
   border: 1px dashed var(--main-accent);
   border-radius: 0px 8px 8px 0px;
@@ -265,19 +286,19 @@
   padding-left: 0.5em;
 }
 
-.btc-styler.expandable:not(.expanded) > :first-child::after {
+.bes-styler.expandable:not(.expanded) > :first-child::after {
   content: "...";
   color: var(--gray-color)
 }
-.btc-styler.expandable:not(.expanded) > .content {
+.bes-styler.expandable:not(.expanded) > .content {
   display: none;
 }
-.btc-styler.expandable > .bracket {
+.bes-styler.expandable > .bracket {
   color: var(--gray-color);
 }
 
-.btc-styler.separator {
-  display: block;
+.bes-styler.separator {
+  /* display: block; */
   margin: auto;
   margin-top: 1em;
   width: 80%;
@@ -285,25 +306,25 @@
   border: 1px solid var(--main-accent)
 }
 
-.btc-styler.tooltip {
+.bes-styler.tooltip {
   display: inline-block;
   /* vertical-align: bottom; */
 }
-.btc-styler.tooltip::after {
+.bes-styler.tooltip::after {
   content: "tt";
   font-size: 0.5em;
   top: -1em;
   position: relative;
   color: var(--gray-color)
 }
-.btc-styler.tooltip:hover > .tooltip-message {
+.bes-styler.tooltip:hover > .tooltip-message {
   visibility: visible;
 }
-.btc-styler.tooltip > .tooltip-message {
+.bes-styler.tooltip > .tooltip-message {
   visibility: hidden;
   position: absolute;
 }
-.btc-styler.tooltip > .tooltip-message > * {
+.bes-styler.tooltip > .tooltip-message > * {
   position: absolute;
   background: white;
   border: 1px solid var(--main-accent);
@@ -314,11 +335,10 @@
   max-width: 60vw;
 }
 
-.btc-styler.displaymath {
-  display: block;
+.bes-styler.displaymath {
   font-size: 1.2em;
 }
-.btc-styler.displaymath::after {
+.bes-styler.displaymath::after {
   content: "(" attr(data-mathrefindex) ")";
   color: var(--gray-color);
   font-size: 0.6em;
@@ -331,43 +351,43 @@
   height: 0;
 }
 
-.btc-styler.img {
-  display: block;
+.bes-styler.img {
+  max-width: 32em;
+  max-height: 32em;
+  width: auto;
+  height: auto;
 }
-.btc-styler.charimg {
+.bes-styler.charimg {
   display: inline-block;
   height: 1em;
   width: 1em;
 }
 
-.btc-styler.expoverlay {
+.bes-styler.expoverlay {
   display: inline-block;
-  /* vertical-align: bottom; */
 }
-.btc-styler.expoverlay > .expoverlay-button {
+.bes-styler.expoverlay > .expoverlay-button {
   cursor: pointer;
 }
-.btc-styler.expoverlay:not(.expanded) > .expoverlay-button::after {
-  /* content: '\1F675 '; */
+.bes-styler.expoverlay:not(.expanded) > .expoverlay-button::after {
   content: '\1F674';
   border: 1px solid var(--gray-color);
   color: var(--gray-color);
 }
-.btc-styler.expoverlay.expanded > .expoverlay-button::after {
-  /* content: '\1F675'; */
+.bes-styler.expoverlay.expanded > .expoverlay-button::after {
   content: '\1F674';
   border: 1px solid var(--gray-color);
   box-shadow: 0px 0px 4px var(--gray-color);
   color: var(--gray-color);
 }
-.btc-styler.expoverlay.expanded > .expoverlay-message {
+.bes-styler.expoverlay.expanded > .expoverlay-message {
   visibility: visible;
 }
-.btc-styler.expoverlay > .expoverlay-message {
+.bes-styler.expoverlay > .expoverlay-message {
   visibility: hidden;
   position: absolute;
 }
-.btc-styler.expoverlay > .expoverlay-message > * {
+.bes-styler.expoverlay > .expoverlay-message > * {
   position: absolute;
   background: white;
   border: 1px solid var(--main-accent);
@@ -377,27 +397,27 @@
   max-width: 60vw;
 }
 
-.btc-styler.wavy > i {
+.bes-styler.wavy > i {
   display: inline-block;
 }
-.btc-styler.wavy > i.n-5 { transform: translateY(-5px);}
-.btc-styler.wavy > i.n-4 { transform: translateY(-4px) }
-.btc-styler.wavy > i.n-3 { transform: translateY(-3px) }
-.btc-styler.wavy > i.n-2 { transform: translateY(-2px) }
-.btc-styler.wavy > i.n-1 { transform: translateY(-1px) }
-.btc-styler.wavy > i.n0  { transform: translateY( 0px) }
-.btc-styler.wavy > i.n1  { transform: translateY( 1px) }
-.btc-styler.wavy > i.n2  { transform: translateY( 2px) }
-.btc-styler.wavy > i.n3  { transform: translateY( 3px) }
-.btc-styler.wavy > i.n4  { transform: translateY( 4px) }
-.btc-styler.wavy > i.n5  { transform: translateY( 5px) }
+.bes-styler.wavy > i.n-5 { transform: translateY(-5px);}
+.bes-styler.wavy > i.n-4 { transform: translateY(-4px) }
+.bes-styler.wavy > i.n-3 { transform: translateY(-3px) }
+.bes-styler.wavy > i.n-2 { transform: translateY(-2px) }
+.bes-styler.wavy > i.n-1 { transform: translateY(-1px) }
+.bes-styler.wavy > i.n0  { transform: translateY( 0px) }
+.bes-styler.wavy > i.n1  { transform: translateY( 1px) }
+.bes-styler.wavy > i.n2  { transform: translateY( 2px) }
+.bes-styler.wavy > i.n3  { transform: translateY( 3px) }
+.bes-styler.wavy > i.n4  { transform: translateY( 4px) }
+.bes-styler.wavy > i.n5  { transform: translateY( 5px) }
 
-.btc-styler.chaotic > i {
+.bes-styler.chaotic > i {
   position: relative
 }
 
-.btc-styler.scrollbox {
-  display: block;
+.bes-styler.scrollbox {
+  /* display: block; */
   width: 95%;
   height: 8em;
   margin: auto;
@@ -413,8 +433,8 @@
   margin-top: 1em;
 }
 
-.btc-styler.tabs {
-  display: block;
+.bes-styler.tabs {
+  /* display: block; */
   border: 1px solid var(--main-accent);
   width: 95%;
   margin: auto;
@@ -422,36 +442,36 @@
   margin-bottom: 1em;
   padding: 2px;
 }
-.btc-styler > .tabs-bar {
-  display: block;
+.bes-styler > .tabs-bar {
+  /* display: block; */
   border-bottom: 1px solid var(--main-accent)
 }
-.btc-styler > .tabs-bar > .tab-button {
+.bes-styler > .tabs-bar > .tab-button {
   border: 1px solid var(--main-accent);
   cursor: pointer
 }
-.btc-styler > .tabs-bar > .tab-button.active-tab {
+.bes-styler > .tabs-bar > .tab-button.active-tab {
   box-shadow: 0px 0px 4px var(--gray-color);
 }
-.btc-styler > .tabs-bar > .tab-button + .tab-button {
+.bes-styler > .tabs-bar > .tab-button + .tab-button {
   margin-left: 1em
 }
-.btc-styler > .tab:not(.active-tab) {
+.bes-styler > .tab:not(.active-tab) {
   display: none
 }
 
 /* Combinations */
 
-.btc-styler.rainbow.hypothesis {
+.bes-styler.rainbow.hypothesis {
   animation: rainbow-background 1.5s linear infinite;
 }
-.btc-styler.rainbow.spoiler {
+.bes-styler.rainbow.spoiler {
   animation: rainbow-background 1.5s linear infinite;
 }
-.btc-styler.rainbow.bubble {
+.bes-styler.rainbow.bubble {
   animation: rainbow-border 1s linear infinite;
 }
-.btc-styler.rainbow.powerful {
+.bes-styler.rainbow.powerful {
   animation: rainbow-powerful-shadow 1s linear infinite;
 }
 @keyframes rainbow-powerful-shadow {
@@ -464,41 +484,46 @@
   86%   {text-shadow: 2px 2px 2px violet}
   100%  {text-shadow: 2px 2px 2px red}
 }
-.btc-styler.bubble.hypothesis {
+.bes-styler.bubble.hypothesis {
   border-radius: 1em
 }
-.btc-styler.radioactive.hypothesis {
+.bes-styler.radioactive.hypothesis {
   box-shadow: 0px 0px 8px var(--radiation-color)
 }
 
-.btc-styler.bold.hypothesis {
+.bes-styler.bold.hypothesis {
   border-width: 4px
 }
 
-.btc-styler.bold.spoiler {
+.bes-styler.bold.spoiler {
   border: 4px solid black
 }
-.btc-styler.bold.spoiler:hover {
+.bes-styler.bold.spoiler:hover {
   border: unset
 }
 
-.btc-styler.error.hypothesis {
+.bes-styler.error.hypothesis {
   text-decoration: unset;
   border: 2px dashed red;
   border-left: 3px solid red;
   background: var(--error-bg-color);
 }
 
-.btc-styler.img.bold {
+.bes-styler.img.bold {
   border: 3px solid black
 }
-.btc-styler.charimg.bold {
+.bes-styler.charimg.bold {
   border: 2px solid black
 }
 
-.btc-styler.img.italic {
+.bes-styler.img.italic {
   --web: skewX(45)
 }
-.btc-styler.img.spoiler {
+.bes-styler.img.spoiler {
   background: black; 
+}
+
+.bes-styler.img.small {
+  max-width: 8em;
+  max-height: 8em;
 }

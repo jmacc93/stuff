@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script type="text/javascript" src="/stuff/lib/btc-loader.js"></script>
-  <script type="text/javascript" src="/stuff/lib/add-extra-txtcmds.js"></script>
-  <style>
-    body {
-      width: 80vw;
-      margin: auto;
-      color: rgb(62, 62, 62);
-      font-family: sans;
-    }
-  </style>
-</head>
-<body>
-  <a style="font-size:small" href="/stuff/">Back to root page</a>
-  <br>
-  <pre class="tc-autorender" style="font-family: unset; white-space: pre-wrap">
+<div class="pagelet">
+  <script type="module" src="/lib/callib0.mjs"></script>
+  <call-resource srcfn="/lib/lib.mjs: mixinHtml" mixin-src="/misc/pagelet-headers.html"></call-resource>
+  
+  <call-resource srcfn="/lib/lib.mjs: transformToEscm" style="white-space: pre">
+
+
 I originally wrote
 \blockquote(
   It's my ideation project
@@ -69,7 +58,8 @@ Here's a list of more features that I've actually already implemented in the ide
 )
 
 
-</pre>
-  <div class="overscroll-div" style="height:16em"></div>
-</body">
-</html>
+
+
+  </call-resource>
+</div>
+

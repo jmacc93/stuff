@@ -1,0 +1,6 @@
+Agent X is optimizing for metric M that is observable through proxy metric P,
+Eventually P stops being a good proxy for M
+
+Is this also true for probabilities?
+
+eg: If you optimize some probability M via observation P, does optimizing for observation P stop P from being a good proxy for M?

@@ -1,0 +1,181 @@
+\centered(\small(\img(/stuff/media/blinded.svg)))
+
+\title(Meditation types)
+
+On this page are some of the types of \italic(meditation) I've discovered, generally in order from least to most exotic / insane. I'll try to write for each what my model of what's going on is, and what what I think the prolonged effects are for each (like, eg: what abilities and tendencies each trains)
+
+\separator()
+
+\condensation(
+  Condensation:
+  \indent(
+    I don't this this model is very likely to be true or entirely true
+    
+    Your cortex can be decomposed into two networks: the one devoted to attention, and the rest; and they influence one another via excitatory and inhibitory interconnections
+    
+    Activating a part of your mind will tend to cause that part to become active later
+  )
+)
+
+I first want to say, my current high-level model of the cortex has: a bunch of semi-independant networks as layer 1, so to speak, which communicate freely and primarily compose the functional component of the cortex; and a bunch of semi-independant networks as layer 2, which communicate freely, and communicate with layer 1 conditionally, and compose the attentional component of the cortex. In other words, my feel is that: theres brain activity throughout your cortex in one network, then spread around that network is your attentional network which responds (\italic(attends)) to the activity in the first network and modulates it. So your attentional network attends to other parts of your brain and guides them
+
+I'm almost certainly wrong and place at most on the order of 30% probability on this model. And whenever I talk about brain networks below, I'm implicitly using this model (but very tentatively because of this low placed probability)
+
+Another model I use that I don't place a high probability of being true on: when some part of your cortex is active, it tends to stay active; and even when it isn't immediately active, its recent activity level tends to make it more activatable. ie: Recent activity tends to make new activity more likely. I've been calling this cognitive momentum. What this looks like, mentally, is like if you've been doing something for awhile, you tend to relate new things to that old thing you were doing, and see new things in terms of that old thing. The extreme version of this is \link(https://en.wikipedia.org/wiki/Tetris_effect|the tetris effect), where you may potentially start literally hallucinating
+
+Note, from \link(https://en.wikipedia.org/wiki/Long-term_potentiation|the long-term potentiation wikipedia article): \quote(In neuroscience, long-term potentiation (LTP) is a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength. ). So there is some basis for my mental model of cognitive momentum
+
+The importance of this (contingent upon its truthiness) cannot be overstated: if you do something for awhile, the associated cognitive effects of that activity persist for some time \italic(after) you've stopped it. So, for example, emotional control techniques (see below) let you control your emotions because you spend some time in one emotional state, and the cognitive momentum of that state carries over for some long period of time after doing the exercise
+
+\separator()
+
+\header1(My view on what meditation is)
+
+\condensation(
+  Meditation is exercise for your mind, and can induce various cognitive effects
+)
+
+What I'm generally referring to as meditation on this page is just some entirely-mental exercise that produces some immediate or eventual effect. Meditation (mental exercises) are useful because they produce these effects
+
+My sense is that most people strickly associate meditation with religious ceremonies and religious traditions. That's why I don't actually like to use the term meditation; though, I think it's probably the most effective single term to communicate what I mean (ie: a mental exercise to produce an effect). Along this line, too, I think that most people would use meditation to signal their role as someone who meditates, and so its \italic(mostly) just a signal (and a meme) in most cases. Unfortunately, when people signal like this they also will develop a more elaborate reasoning why they are doing that thing, despite that the primary cause of their behavior is a conscious or subconsious expectation of increased status or that behaviors' effects on their perceived place in their culture. So, in other words, they'll come up with a canonical reason why they're doing something, which might not actually be the real reason they had the impulse to do that thing (which they may not even be aware of)
+
+But as mental exercise, meditation is extremely important. Just as you can't become fit and strong by sitting and not moving all day, you can't develop mastery over the parts of your mind and your brain's functionality that you can develop a mastery over, unless you actually work those parts out. And just like how you can develop a massively jacked musculature, or just become basically fit (to avoid injury, to lift reasonably sized things, to fight old age, etc), you can also probably push your mental abilities through meditation to extreme levels, but more likely to simply healthy level. You can't become a god or start floating or whatever, but rather these are like your ability to: focus for prolonged periods of time, control your emotions, put yourself into altered states of conciouscess, relax your body (very useful for sleep! \expandable(And, I have found that I can use the same meditation for relaxation to explore the hypnagogic period just before falling asleep, and potentially also induce lucid dreams (which is where you experience dreams as if you're awake \expandable(In my experience, it isn't sufficient to say lucid dreams are \italic(where you're aware you're dreaming), because lucid dreams don't feel like dreams, they are more like you are just massively hallucinating but in a way that feels realer-than-real. They don't just feel like a dream)))), and especially to be aware of your process of reasoning and what you're actually thinking about, among many other things
+
+My sense is that \italic(any) mental process can be trained using meditation. So, for example, if you want to be happier at your job, there is some meditation for that (I'd recommend repatterning, and emotional control techniques, below). Again, you can't become a god and start telekinetically moving the external world around, but through meditation you can become a god of your cortex, so to speak, and start innerpsychically controlling your own mind. Though, with that said, its important to have compassion for yourself, and forgive yourself even if you fail to manifest some mental change despite working towards that. As with my definition of meditation above as \italic(mental exercise), pragmatically speaking, the goal of this sort of meditation is to manifest some effect through mental exercise. If there \italic(isn't) an effect despite effort, then other things have to be considered like: am I getting enough sleep / food / water / social interaction / etc? is this something that I \italic(can) actually effect \expandable(eg: you (probably) cannot actually instantly kill yourself using your mind; your cortex cannot control your heart beating, so there is (probably) no form of meditation that can achieve this)? do I actually want this? is this form of meditation actually theoretically capable of producing the effect I'm after? etc. 
+
+\separator()
+
+\header1(Focus and attentional control)
+
+\italic(What you) attend to
+
+\header2(Ye olde standard basic focus meditation)
+
+You focus on something for a long time, not much too it. However, you have the choice what to focus on
+
+Things to focus on:
+\list(
+  \item(Your breath)
+  \item(Physical objects in your environment)
+  \item(Nothing! / the void)
+)
+
+My feeling is that this is like a \link(https://en.wiktionary.org/wiki/compound_exercise|compound exercise) for your mind, and uses multiple abilities simultaneously to accomplish the practice. In particular: you use \underline(metacognitive) abilities to recognize when you have other activity besides focusing on your focus target, then you use \underline(deceleratory) abilities to reduce that activity. Along these lines, the semantic antonym of this is the form of meditation accelerating everything you're attending to (acceleratory meditation; see below)
+
+What I bet this trains: your ability to focus on one thing for prolonged periods of time. I think this is a good bet because it corresponds to just exactly what you're doing when practicing this form of meditation
+
+\header2(Metacognitive meditation)
+
+\centered(\small(\img(/stuff/media/reflection.svg)))
+
+Just watch \expandable(\italic(without) doing any sort of cortex-judo on it; ie: don't try to influence your thoughts, just watch them) your thoughts. Try to attend to as much of your cognition as possible. This means that everything you \italic(can) attend to should be attended to, or you should try to attend to as much of it as possible. There appears to be an upper limit how much of your actual attendable mental activity you can actually attend to simultaneously, so it probably isn't possible to simultaneously attend to everything in your mind at once, but try to do that is one goal of the practice
+
+I feel like what is physically happening when you do this is: when there is activity in the non-attentional parts of your cortex, some of that activity can induce activity in your attentional networks, and this exercise actually opens up those channels so more regular activity outside your attentional networks makes its way into your attentional networks. So, you end up more aware of what's happening in your mind after doing this sort of meditation. In other words, this trains your ability to recognize what activity is occuring in your mind at all times. I think this is a good bet because it corresponds to just exactly what you're doing when practicing this form of meditation. If this is true then it makes this \italic(metacognitive meditation) probably the most useful, or at least one of the most foundational, forms of meditation. I'd definitely encourage literally everyone to set aside time to practice 
+
+In some sense, metacognitive meditation is mindfulness meditation but specifically applied to what's happening in your mind, rather than all your perceptions
+
+I think there's actually another name for this meditation, but I can't remember what it is, and I can't find it via internet search
+
+\header2(Moment-delayed recollection meditation)
+
+Continuously look back in your memory by just a few seconds. Recollective attention. This is extremely difficult and I can't effectively do it
+
+\header1(Cortex-control meditation)
+
+\italic(Controlling what) you're attending to
+
+\header2(Deceleratory / inhibitory meditation)
+
+You \italic(decelerate) / inhibit everything that comes to your attention. This seems to be very similar to focus meditation
+
+Mental deceleration is the ability to essentially stop a mental process / inhibit attendable mental activity. 
+
+Along the lines of the cortex model discussed at the top: your attentional networks have both excitatory and inhibitory connections with your primary cortical network. When you deceleration something that is your attentional network sending signals through its inhibitory connections. So (again, this is my feeling how it works, I don't actually know), the effect is that your attentional network can stop activity in any part of your cortex when there is already activity there. And your attentional network can only know if there is activity there if that activity spreads into the subnetwork in your attention network associated with that area of cortex. In order words, my feeling how it works is: activity in cortex region A -> activity in attentional network region Aa (connected to cortex Aa) -> Aa sends inhibitory signal to A -> activity in A diminished due to inhibitory signal. This is just my feeling and, again, I don't place much probability on it being true. However, mental deceleration and acceleration are apparently real effects and you can learn to use them
+
+Another way of looking at mental deceleration, in terms of cognitive momentum: deceleration meditation \italic(decreases) cognitive momentum, just like deceleration decrease real-world object momentum
+
+\header2(Acceleratory / excitatory meditation)
+
+You \italic(accelerate) / excite everything that comes to your attention
+
+Just like deceleration meditation above, in terms of cognitive momentum: acceleration meditation \italic(increases) cognitive momentum, just like acceleration increases real-world object momentum. And, how I imagine it working at a neurological level is just like the deceleratory version above, but excitatory connections are used instead of inhibitory ones
+
+I'm not exactly sure how to describe how to do this. Honestly, I don't know how I do it. I discovered my own ability to do it suddenly \expandable(If you want to know how I discovered it, contact me and I'll tell you directly) and have been developing it ever since. I do have a name for what I do mentally to accelerate something, though; I call it \italic(leering). As that word suggests, you sort of notice your target of acceleration and then stare at it and it starts becoming a more intense version of itself. 
+
+\header1(Alternation techniques)
+
+This is a family of techniques that involve moving between two mental states. For example, doing alternation for emotional control usually means going between happy and sad, angry and happy, afraid and sad, etc. The point is that you don't try to hold \italic(one) emotion, you alternate between emotions. Think of it like a repetition when exercising: the \underline(rep) is the transition from one state to another. And, note: the point being the transition, not maintaining a particular state without transitions, may also be the goal of regular old focus-on-one-thing meditation as well. In that case, the transition in focus meditation is after your mind spontaneously moves into another state, and you have to transition back to the state you were originally. So the transition there is by necessity to maintain the state. However, in alternation types of meditation you deliberately move between states. Holding a particular state isn't as important as the transition
+
+I kind of view it like you are developing control over how where you are in the continuum from mental state A to mental state B. You can't expect to move along the path from A to B if you haven't blazed that trail before (not necessarily true, but I generally believe (70%) it). So, what I bet this family of techniques trains is: your ability to move between mental states
+
+\header1(Misc)
+
+\header2(Wiggle meditation)
+
+Just move! Wiggle and move. Try to move as much of your body as possible. If you're already alone obviously nobody can see you and you can be as weird as you want, but if you aren't \italic(perfectly) comfortable wiggling then find some way first to make yourself comfortable. Generally, I imagine most people don't want to wiggle weirdly where others can see them, so my recommendation is finding some place where you have absolute privacy. If you still feel awkward when completely alone: that's a good thing; you've discovered a way you can improve and something to work on \expandable(Assuming you would rather not feel awkward when wiggling in private)
+
+A variant of this technique is to dance instead of just wiggling. The rythmic nature of dancing must have a different neurological basis, so dancing isn't equivalent to wiggling itc. Generally though, I suspect dancing meditation can be used to satisfy the same goal of wiggling, because the effects of dancing are a superset of the effects of wiggling
+
+What I think happens: you're exciting parts of your motor cortex, which will make your motor cortex more excitable in the future. If this is true then I'd expect it to be easier to move after doing this exercise (in my experience, this is true)
+
+Another note on this: there is therapeutic value in being goofy and otherwise doing things that you think are silly or outside your character. Not only does doing things you wouldn't ordinarily do usually make you more comfortable doing those things specifically, but practicing doing out of the ordinary things makes it easier for you to do new things in general \expandable(Of course, this is contingent upon a few assumptions: that doing X makes you more comfortable doing X, that doing X category of thing makes doing X category things easier, etc). Remember, too: that when you're in private there are no social consequences for doing something goofy / stupid / etc. So you really only stand to improve by doing out of the ordinary things like wiggling and dancing sillily
+
+Along the lines of dancing like nobodies watching: a true test of someones confidence and is whether or not they can dance in a goofy and unaesthetic way (without the pretext that they will be doing that) around many other people. Usually people around have the pretext \expandable(ie: Everyone knows that's what you'll be doing, and are expecting it) that you'll act funny, or you are essentially performing for someone (eg: you're being filmed to do it), but it is massively harder, and requires massively more confidence in yourself, if nobody except you knows you'll be acting funny. I figure it has to do with
+
+\header2(Emotional control meditation)
+
+\condensation(
+  Inducing particular emotions
+)
+
+In this form of meditation you try to produce a particular emotional state. And its apparently best paired with alternation techniques (see above), ie: make one emotion then switch to another emotion. In my experience deliberately producing an emotion is really difficult to \italic(just do), but instead there seem to be some methods you can use to coax your brain into them
+
+My favorite of the emotional-coaxing methods is the fake-it-till-you-make-it facial expression method. In this you just force a facial expression associated with your target emotion and you should start to feel the emotion to some degree. For example: to produce smile-emotion (happiness? contentment? ??), you smile. Try to produce as genuine a smile as you can. In my experience, when you make a face (like smiling), it gradually becomes easier and easier to make the face until eventually you're being pulled into it by your target emotion itself (ie: smile-emotion pulls you into smiling after doing it long enough). Going by the cognitive-momentum model I talked about above, forcing a smile begins accelerating the parts of your cortex associated with smile-emotion and after awhile that part is excited enough that secondary processes (eg: interactions with connected regions) sustain it
+
+Another emotional-coaxing method is to imagine being surrounded people showing your target emotion. For most people this will probably incite that emotion in them. There's nothing inherently wrong with being a sociopath \expandable(I know this doesn't seem right, but if a sociopath knows they're mentally ill, and doesn't want to cause problems, then they aren't inherently a bad person and so there isn't inherently anything wrong with their condition) but if you are then this method probably isn't going to work haha. And it might just not work for you even if you're perfectly capable of an empathetic response to others emotions
+
+As an example of this method, you might imagine being surrounded by your family, who are laughing and smiling. Or, you might imagine imagine someone crying, and feeling bad for them. etc
+
+Another coaxing method is to imagine being in a scenario which would cause the target emotion in you. For example: you might imagine being really angery at someone who is pushing you around, and fighting them (for anger). One in particular (for anger) that I imagine is being extremely angry at dying while playing a videogame when I was younger. Another (for fear), I imagine being in the dark with some horrifying monster stalking me
+
+I remember reading about actors who make themselves cry, and they recommended imagining a sad event in your life
+
+Once you can leer (see acceleration techniques above) at the
+
+\header3(Emotional synthesis)
+
+At the time I'm writing this I'm struggling not to slip into angry-happy mode which is an extremely potent and attractive emotion(?) that I learned how to move into via emotional synthesis practice. Initially, I didn't think it was possible to do in the way I had been practicing emotional control. It seemed like you could either force one or the other, and they were mutually exclusive of the other. But then I was able to do it \italic(once), and after that I not only could just do it, but was slipping into it naturally. I had been leveraging the mutual-exclusiveness of anger and smile-emotion to move from anger and irritation to smile-emotion, and that worked well because of their apparent mutual-exclusiveness. But now I can have both so I have to use deceleratory techniques (? Is that what I'm using) on anger to diminish it. Incidentally, I'd probably describe anger-happy as the cause of conditionally externally-horrible behavior like the desire to have conquest over others. Maybe conquest-emotion itself is a good name for it? \expandable(\italic(conquest): The act or process of conquering... \italic(conquer): To eliminate or minimize... \italic(conquest): The act or process of elimination or minimization... Seems like a likely effect of this emotion) 
+
+The idea is to conjure multiple emotions at once, and combine them into a single emotion
+
+\header2(Repatterning)
+
+Repatterning seems to be incredibly powerful. The gist is that you 
+
+\header3(Mental object synthesis)
+
+Combining multiple mental constructs / objects into a single one. This usually means holding both in your mind at the same time
+
+\header2(Torture resistance meditation)
+
+The simplest way to do this meditation is just to hold your breath until you can't handle the temptation to breathe anymore. Along these lines: 
+
+. If the cognitive momentum model is true, then this should cause you to be able to resist the temptation to breathe (or generally do your target thing-not-to-do) in this same situation in the future, and, it should generalize to other situations. Generally, it should essentially allow you to better resist any sort of automatic temptation in the future
+
+
+
+
+
+\centered(
+Use it to gain it
+\small(\img(/stuff/media/lll.svg))
+)
+
+
+
+
+
+
+
+
+
