@@ -1,0 +1,28 @@
+\title(Knowledge graphs and Text sets)
+
+A knowledge graph is a graph (ie: the nodes and edges kind) with labeled edges, also equivalent to a set of nodes N and a set of ordered triples E. The ordered triples, for human-semantic things, usually look like \icode(('I', 'like', 'pizza')). Not everything can be a center element (in the last example, center element is 'like'). For example, I can't have \icode(('like', 'I', 'pizza')) when I've settled on that the center / 2nd element is the label for the edge
+
+A more general version of this that doesn't have as-simple-a representation as knowledge graphs usual network representation, is what I've been calling text-sets
+
+A text set is a set / collection of texts. Texts are like ordered sequences of tokens that compose together to represent complex things relative to some semantic domain \expandable(ie: an agency, or some other kind of \italic(reader), \italic(reads) the sequence and depending on how they compose their internal representations for each of the tokens together, they can interpret the text as different things. If they are using the same semantics as the \italic(writer) of the text, then they'll interpret it the same way the writer interprets it). A collection of texts then looks like a set of ordered N-tuples. 
+
+So at face value, the knowledge graph looks like a bunch of 3-tuples, the text set looks like a bunch of N-tuples. But texts represent mental constructs individually, and go beyond expressing atomic relationships
+
+Defining text sets more: a text set's texts should all be independent (meaning, no one text requires another to be in the set to make sense), and preferrably be as small as possible. These are probably important because you could easily make a set of texts like \icode({"X", "Y", "Z"}) into a set with one text like \icode({"X. Y. Z"}) and the set would mean the same thing
+
+\separator()
+
+Really, this is all like saying a set of texts can contain the same information that a knowledge graph contains. Yes, that's true. Obviously its true. Its just, knowledge graphs are seen as a more-data-like format. Though, they both have to be translated from human-semantic textual form into a system-specific internal semantics for a system to comprehend them
+
+But the words in a knowledge graph also must either have much more narrow meanings within the computer, OR the program using the graph has hypercontextualized behavior, has its own internal semantics, has to translate between semantic domains, etc -- everything a program using a set of texts would use. I guess I mean: human-like intelligence won't be using the kinds of human-semantic knowledge graphs we're used to (at least not exclusively), because a lot more is required internally for a human-like intelligence to solve problems at that level, and conceptual fluency, for one, is not going to happen without an internal semantics, at the very least. I get the sense that its like the difference between how modern industrial robots move, and how humans move: theres a lot lot lot more going on in the human motor cortex and elsewhere to move fluently and fluidly like humans do, and a person can't just go through and add conditions and information by hand to a robot arms proceedures to get to that point
+
+\separator()
+
+A more generic form of text sets would be like \underline(sign sets), which are sets of signs. You can use anything (sign) to convey information here. You could have an image sign, for instance, thats like a picture of a black dog with long straight fur, you could have an audio sign thats like a person saying something like "Walter, you're such a good boy; yes you are!", you could have a bunch of stuff all packaged up into a zip file called 'walter-the-dog.zip', etc. But all of them need to be translated into a system's internal semantics to be comprehensible by the system
+
+...
+
+How do systems learn to translate external stuff into internal stuff? A question for another time
+
+
+
