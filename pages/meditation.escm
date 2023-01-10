@@ -2,9 +2,11 @@
 
 \title(Meditation types)
 
-On this page are some of the types of \italic(meditation) I've discovered, generally in order from least to most exotic / insane. I'll try to write for each what my model of what's going on is, and what what I think the prolonged effects are for each (like, eg: what abilities and tendencies each trains)
+On this page are some of the types of \italic(meditation) I've discovered, and other stuff related to meditation, generally I've written things in order from least to most exotic / insane (or that my original intention, at least). I'll try to write for each what my model of what's going on is, and what what I think the prolonged effects are (like, eg: what abilities and tendencies each trains)
 
 \separator()
+
+\header1(A simple model about part of the brain)
 
 \condensation(
   Condensation:
@@ -45,26 +47,27 @@ My sense is that \italic(any) mental process can be trained using meditation. So
 
 \separator()
 
-\header1(Focus and attentional control)
+\header1(Regular old meditation / focus meditation)
 
-\italic(What you) attend to
-
-\header2(Ye olde standard basic focus meditation)
-
-You focus on something for a long time, not much too it. However, you have the choice what to focus on
+Usually when I talk about meditation without specifying another type of meditation, I'm talking about this one. Its probably what most people think of when they think of meditation. You focus on something for a long time, not much too it. However, you have the choice what to focus on
 
 Things to focus on:
 \list(
   \item(Your breath)
   \item(Physical objects in your environment)
   \item(Nothing! / the void)
+  \item(Some particular feeling or thought when it occurs)
 )
 
 My feeling is that this is like a \link(https://en.wiktionary.org/wiki/compound_exercise|compound exercise) for your mind, and uses multiple abilities simultaneously to accomplish the practice. In particular: you use \underline(metacognitive) abilities to recognize when you have other activity besides focusing on your focus target, then you use \underline(deceleratory) abilities to reduce that activity. Along these lines, the semantic antonym of this is the form of meditation accelerating everything you're attending to (acceleratory meditation; see below)
 
 What I bet this trains: your ability to focus on one thing for prolonged periods of time. I think this is a good bet because it corresponds to just exactly what you're doing when practicing this form of meditation
 
-\header2(Metacognitive meditation)
+A long time ago, I originally thought that doing basic meditation would improve my ability to not get lost in my thoughts so much I forget that I'm meditating while I'm meditating, which is a common occurrence, and eventually that I would just be able to maintain a state of not thinking for a long time. But my experience after having done it for a long time is that I still get lost in my thoughts and can only occasionally maintain a state of non-thought for maybe on the order of minutes. So I don't know if its just me or something but basic meditation doesn't really seem to produce the effects I originally imagined it would
+
+But one effect I've noticed that it \italic(does) produce is when focusing on a particular thought or feeling makes that thing more likely to be the dominant thought / feeling in situations where it arises. Think: if you focus on reacting calmly and happily, you're more likely to react that way in situations that could have otherwise made you mad, sad, embarassed, etc
+
+\header1(Metacognitive meditation)
 
 \centered(\small(\img(/stuff/media/reflection.svg)))
 
@@ -80,11 +83,7 @@ I think there's actually another name for this meditation, but I can't remember 
 
 Continuously look back in your memory by just a few seconds. Recollective attention. This is extremely difficult and I can't effectively do it
 
-\header1(Cortex-control meditation)
-
-\italic(Controlling what) you're attending to
-
-\header2(Deceleratory / inhibitory meditation)
+\header1(Deceleratory / inhibitory meditation)
 
 You \italic(decelerate) / inhibit everything that comes to your attention. This seems to be very similar to focus meditation
 
@@ -94,7 +93,11 @@ Along the lines of the cortex model discussed at the top: your attentional netwo
 
 Another way of looking at mental deceleration, in terms of cognitive momentum: deceleration meditation \italic(decreases) cognitive momentum, just like deceleration decrease real-world object momentum
 
-\header2(Acceleratory / excitatory meditation)
+I originally learned how to decelerate thoughts / feelings / etc when first learning how to do focus meditation. I eventually found that I was periodically noticing small, almost subconscious thoughts, and that I was slowing them down until they disappear
+
+I can't really describe what I'm doing when I decelerate a thought / feelings / whatever. Its really one of those things you just do. Like, you just \italic(have) the ability to move your arm, and it would be difficult or impossible to describe to somehow how to move their arm if they were physically capable of doing it but didn't know how to. But that's how it feels with mental deceleration / acceleration: you just move some mental muscle and your brain does the thing
+
+\header1(Acceleratory / excitatory meditation)
 
 You \italic(accelerate) / excite everything that comes to your attention
 
@@ -108,9 +111,7 @@ This is a family of techniques that involve moving between two mental states. Fo
 
 I kind of view it like you are developing control over how where you are in the continuum from mental state A to mental state B. You can't expect to move along the path from A to B if you haven't blazed that trail before (not necessarily true, but I generally believe (70%) it). So, what I bet this family of techniques trains is: your ability to move between mental states
 
-\header1(Misc)
-
-\header2(Wiggle meditation)
+\header1(Wiggle meditation)
 
 Just move! Wiggle and move. Try to move as much of your body as possible. If you're already alone obviously nobody can see you and you can be as weird as you want, but if you aren't \italic(perfectly) comfortable wiggling then find some way first to make yourself comfortable. Generally, I imagine most people don't want to wiggle weirdly where others can see them, so my recommendation is finding some place where you have absolute privacy. If you still feel awkward when completely alone: that's a good thing; you've discovered a way you can improve and something to work on \expandable(Assuming you would rather not feel awkward when wiggling in private)
 
@@ -122,7 +123,7 @@ Another note on this: there is therapeutic value in being goofy and otherwise do
 
 Along the lines of dancing like nobodies watching: a true test of someones confidence and is whether or not they can dance in a goofy and unaesthetic way (without the pretext that they will be doing that) around many other people. Usually people around have the pretext \expandable(ie: Everyone knows that's what you'll be doing, and are expecting it) that you'll act funny, or you are essentially performing for someone (eg: you're being filmed to do it), but it is massively harder, and requires massively more confidence in yourself, if nobody except you knows you'll be acting funny. I figure it has to do with
 
-\header2(Emotional control meditation)
+\header1(Emotional control meditation (ECM))
 
 \condensation(
   Inducing particular emotions
@@ -142,15 +143,15 @@ Another coaxing method is to imagine being in a scenario which would cause the t
 
 I remember reading about actors who make themselves cry, and they recommended imagining a sad event in your life
 
-Once you can leer (see acceleration techniques above) at the
+Once you can leer (see acceleration techniques above) at the feeling of the emotion itself, you can kindle it like a fire and grow it even without making any expressions. Doing this seems to also make you more aware when you're having that emotion. So you'll be more likely to know you're happy, for instance, and be able to leer at your happiness to grow it and make yourself even more happy
 
-\header3(Emotional synthesis)
+\header2(Emotional synthesis)
 
 At the time I'm writing this I'm struggling not to slip into angry-happy mode which is an extremely potent and attractive emotion(?) that I learned how to move into via emotional synthesis practice. Initially, I didn't think it was possible to do in the way I had been practicing emotional control. It seemed like you could either force one or the other, and they were mutually exclusive of the other. But then I was able to do it \italic(once), and after that I not only could just do it, but was slipping into it naturally. I had been leveraging the mutual-exclusiveness of anger and smile-emotion to move from anger and irritation to smile-emotion, and that worked well because of their apparent mutual-exclusiveness. But now I can have both so I have to use deceleratory techniques (? Is that what I'm using) on anger to diminish it. Incidentally, I'd probably describe anger-happy as the cause of conditionally externally-horrible behavior like the desire to have conquest over others. Maybe conquest-emotion itself is a good name for it? \expandable(\italic(conquest): The act or process of conquering... \italic(conquer): To eliminate or minimize... \italic(conquest): The act or process of elimination or minimization... Seems like a likely effect of this emotion) 
 
 The idea is to conjure multiple emotions at once, and combine them into a single emotion
 
-\header2(Repatterning)
+\header1(Repatterning)
 
 Repatterning seems to be incredibly powerful. The gist is that you hold multiple target mental objects, feelings, etc in your head simultaneously, then sort of fold them all in together. This should end up confusing the targets in your mind. The more you do it the more it seems to cause all of the targets to co-occur in your mind, making it so one cannot be considered without the other, and seemingly allows you to transfer properties between targets
 
@@ -168,19 +169,29 @@ Somw ways to use repatterning:
 * Induce comfortable and positive feelings for a situation you currently hate (your job, interacting with someone, a chore you dislike, etc) by repatterning it with something you like (a hobby, someone you like interacting with, a game, eating your favorite food, a pleasant situation)
 * Make yourself have a strong negative reaction to something you want to stop doing (a bad habit, etc) by repatterning with something disgusting, or that you hate (eg: being scolded, something painful like stubbing your toe, etc)
 
-\header2(Resist reacting meditation)
+\header1(Resist reacting meditation)
 
 The simplest way to do this meditation is just to hold your breath until you can't handle the temptation to breathe anymore. Along these lines: resist swallowing, don't shift and move around when you're uncomfortable, 
 
 If the cognitive momentum model is true, then this should cause you to be able to resist the temptation to breathe (or generally do your target thing-not-to-do) in this same situation in the future, and, it should generalize to other situations. Generally, it should essentially allow you to better resist any sort of automatic temptation in the future
 
+\header1(Re-interpretation meditation)
 
+\colored(darkorange|Todo)
+
+\header1(Rythmic beathing)
+
+\colored(darkorange|Todo)
+
+\header1(Exploration-mode meditation)
+
+\colored(darkorange|Todo)
 
 
 
 \centered(
 Use it to gain it
-\small(\img(/stuff/media/lll.svg))
+\centered(\small(\img(/stuff/media/lll.svg)))
 )
 
 
